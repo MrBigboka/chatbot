@@ -239,13 +239,12 @@
 }
 
 .gradientText {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   background: linear-gradient(90deg, #07bbdb, #dcbdff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  margin-bottom: 0px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ajoute une ombre douce */
 }
 
@@ -254,7 +253,6 @@
   font-family: var(--font-mono);
   display: flex;
   align-items: center;
-  margin-top: 5px;
   font-size: 0.9rem;
   color: #ffebeb;
 }
