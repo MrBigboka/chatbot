@@ -246,7 +246,13 @@
   -webkit-text-fill-color: transparent;
   text-align: center;
   text-shadow: 2px 2px 5px rgba(49, 214, 243, 0.565); /* Ajoute une ombre douce */
- }
+}
+
+@media (max-width: 480px) {
+  .gradientText {
+    font-size: 5rem; /* Réduire encore plus la taille du texte pour les petits écrans */
+  }
+}
 
 .status {
   letter-spacing: 10px
