@@ -235,19 +235,22 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(90deg, #230777, #a7abad);
+  background: linear-gradient(90deg, #3437dd, #5255e0);
 }
 
 .gradientText {
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: bold;
-  background: linear-gradient(90deg, #07bbdb, #dcbdff);
+  background: linear-gradient(90deg, #5db4e0, #d0f2ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ajoute une ombre douce */
-}
+  text-shadow: 2px 2px 5px rgba(49, 214, 243, 0.565); /* Ajoute une ombre douce */
+ }
 
+.status {
+  letter-spacing: 10px
+}
 
 .poweredBy {
   font-family: var(--font-mono);
